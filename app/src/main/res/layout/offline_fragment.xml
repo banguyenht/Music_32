@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white">
+
+    <Button
+        android:id="@+id/buttonShowFavorite"
+        style="@style/ButtonHome"
+        android:drawableLeft="@drawable/ic_like"
+        android:text="@string/title_favorite"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttotShowsongs"
+        style="@style/ButtonHome"
+        android:drawableLeft="@drawable/ic_music"
+        android:text="@string/title_song"
+        android:textColor="@color/color_black"
+        app:layout_constraintTop_toBottomOf="@+id/buttonShowFavorite" />
+
+    <Button
+        android:id="@+id/buttonPlaylist"
+        style="@style/ButtonHome"
+        android:drawableLeft="@drawable/ic_playlist"
+        android:text="@string/title_playlist"
+        android:textColor="@color/color_black"
+        app:layout_constraintTop_toBottomOf="@+id/buttotShowsongs" />
+
+    <Button
+        android:id="@+id/buttonAlbum"
+        style="@style/ButtonHome"
+        android:drawableLeft="@drawable/ic_album"
+        android:text="@string/title_album"
+        android:textColor="@color/color_black"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPlaylist" />
+
+</android.support.constraint.ConstraintLayout>
