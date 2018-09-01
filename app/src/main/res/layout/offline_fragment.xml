@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+    <Button
+        android:id="@+id/buttonShowFavorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_40"
+        android:background="@color/colorWhite"
+        android:drawableLeft="@drawable/ic_like"
+        android:text="@string/favorite_song"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/buttotShowsongs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_40"
+        android:background="@color/colorWhite"
+        android:drawableLeft="@drawable/ic_music"
+        android:text="@string/song"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintTop_toBottomOf="@+id/buttonShowFavorite"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/buttonPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_40"
+        android:background="@color/colorWhite"
+        android:drawableLeft="@drawable/ic_playlist"
+        android:text="@string/playlist"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintTop_toBottomOf="@+id/buttotShowsongs"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/buttonAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_40"
+        android:background="@color/colorWhite"
+        android:drawableLeft="@drawable/ic_album"
+        android:text="@string/album"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPlaylist"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

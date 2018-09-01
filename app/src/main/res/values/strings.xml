@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Music_32</string>
     <string name="hello">Hello World</string>
+    <string name="title_app">SoundCloudMusic</string>
+    <string name="favorite_song">Favorite Song</string>
+    <string name="playlist">Playlist</string>
+    <string name="song">song</string>
+    <string name="album">Album</string>
 </resources>
